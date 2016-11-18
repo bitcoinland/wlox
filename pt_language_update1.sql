@@ -46,5 +46,7 @@ INSERT INTO `admin_controls_methods` (`id`, `method`, `arguments`, `order`, `con
 (2824, 'textEditor', 'a:11:{s:4:"name";s:10:"content_pt";s:7:"caption";s:12:"Content (PT)";s:8:"required";s:0:"";s:5:"value";s:0:"";s:2:"id";s:0:"";s:7:"echo_on";s:0:"";s:5:"class";s:0:"";s:8:"is_basic";s:0:"";s:12:"allow_images";s:1:"1";s:6:"height";s:0:"";s:9:"method_id";s:0:"";}', 11, 98, 0),
 (2823, 'textInput', 'a:13:{s:4:"name";s:8:"title_pt";s:7:"caption";s:10:"Title (PT)";s:8:"required";s:0:"";s:5:"value";s:0:"";s:2:"id";s:0:"";s:13:"db_field_type";s:0:"";s:5:"class";s:0:"";s:7:"jscript";s:0:"";s:5:"style";s:0:"";s:15:"is_manual_array";s:0:"";s:9:"is_unique";s:0:"";s:12:"default_text";s:0:"";s:17:"delete_whitespace";s:0:"";}', 6, 98, 0);
 
-
+ALTER TABLE  `currencies` ADD  `name_pt` VARCHAR( 255 ) CHARACTER SET utf8 COLLATE utf8_unicode_ci NOT NULL AFTER  `name_zh` ;
+INSERT INTO `admin_controls_methods` (`id`, `method`, `arguments`, `order`, `control_id`, `p_id`) VALUES
+(2839, 'textInput', 'a:13:{s:4:"name";s:7:"name_pt";s:7:"caption";s:9:"Name (PT)";s:8:"required";s:0:"";s:5:"value";s:0:"";s:2:"id";s:0:"";s:13:"db_field_type";s:0:"";s:5:"class";s:0:"";s:7:"jscript";s:0:"";s:5:"style";s:0:"";s:15:"is_manual_array";s:0:"";s:9:"is_unique";s:0:"";s:12:"default_text";s:0:"";s:17:"delete_whitespace";s:0:"";}', 2, 258, 0);
 

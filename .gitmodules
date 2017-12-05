@@ -1,9 +1,6 @@
 [submodule "frontend"]
 	path = frontend
 	url = https://github.com/mbassan/wlox-frontend.git
-[submodule "auth"]
-	path = auth
-	url = https://github.com/mbassan/wlox-auth.git
 [submodule "api"]
 	path = api
 	url = https://github.com/mbassan/wlox-api.git

@@ -5,7 +5,7 @@ WLOX is an open source cryptocurrency exchange that supports multiple cryptocurr
 **Please note: we are in the final stages of some major updates, including multi-coin support, which already functions. This document will be updated soon to reflect those changes.**
 
 The purpose of this document is to walk you throught the process of a typical setup.
-
+sasasda
 **IF YOU INSTALLED WLOX PRIOR TO 14/01/2015, PLEASE READ THE FILE UPDATE_GUIDE_v1.04 BEFORE CONTINUING**
 
 Getting Started

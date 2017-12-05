@@ -1,6 +1,3 @@
 [submodule "api"]
 	path = api
 	url = https://github.com/mbassan/wlox-api.git
-[submodule "cron"]
-	path = cron
-	url = https://github.com/mbassan/wlox-cron.git

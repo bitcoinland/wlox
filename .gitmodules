@@ -1,12 +1,15 @@
-[submodule "wlox-auth"]
-	path = wlox-auth
-	url = https://github.com/wlox-project/wlox-auth.git
-[submodule "wlox-api"]
-	path = wlox-api
-	url = https://github.com/wlox-project/wlox-api
 [submodule "backstage2"]
 	path = backstage2
 	url = https://github.com/wlox-project/backstage2
-[submodule "wlox-cron"]
-	path = wlox-cron
+[submodule "api"]
+	path = api
+	url = https://github.com/wlox-project/wlox-api
+[submodule "auth"]
+	path = auth
+	url = https://github.com/wlox-project/wlox-auth.git
+[submodule "cron"]
+	path = cron
 	url = https://github.com/wlox-project/wlox-cron
+[submodule "frontend"]
+	path = frontend
+	url = https://github.com/wlox-project/wlox-frontend

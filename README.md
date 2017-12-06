@@ -12,6 +12,7 @@ The purpose of this document is to walk you throught the process of a typical se
 Getting Started
 --------------
 WLOX runs on the traditional PHP/MySQL/Apache setup.
+Please check the end of document for module dependences.
 
 **For a development environment**, you can simply clone the whole set of WLOX repositories one by one by doing `git clone https://github.com/wlox-project/wlox-submodule`.
 

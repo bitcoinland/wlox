@@ -2,19 +2,20 @@ WLOX - Open Source Multi-Cryptocurrency Exchange
 =========
 WLOX is an open source cryptocurrency exchange that supports multiple cryptocurrencies and multiple fiat currencies.
 
-**Please note: we are in the final stages of some major updates, including multi-coin support, which already functions. This document will be updated soon to reflect those changes.**
+**If you want to collaborate with the project please refer to:
+email: wloxproject@gmail.com
+slack: wlox.slack.com**
 
 The purpose of this document is to walk you throught the process of a typical setup.
 sasasda
-**IF YOU INSTALLED WLOX PRIOR TO 14/01/2015, PLEASE READ THE FILE UPDATE_GUIDE_v1.04 BEFORE CONTINUING**
 
 Getting Started
 --------------
 WLOX runs on the traditional PHP/MySQL/Apache setup.
 
-**For a development environment**, you can simply clone the whole set of WLOX repositories by doing `git clone --recursive https://github.com/mbassan/wlox.git`.
+**For a development environment**, you can simply clone the whole set of WLOX repositories by doing `git clone --recursive https://github.com/wlox-project/wlox.git`.
 
-**For a production environment**, it is strongly recommended to distribute the different repositories across multiple servers. You can clone each sub-module independently by doing `https://github.com/mbassan/wlox-[submodule].git`.
+**For a production environment**, it is strongly recommended to distribute the different repositories across multiple servers. You can clone each sub-module independently by doing `https://github.com/wlox-project/wlox-[submodule].git`.
 
 
 Project Structure
@@ -45,7 +46,7 @@ Setting up the Back-End (backstage2)
 -------------------
 As mentioned above, WLOX comes with its own administrative program, *backstage2*, which is really a [seperate project](https://github.com/mbassan/backstage2) developed over a few years.
 
-You can clone **backstage2** doing `git clone https://github.com/wlox/backstage2.git`. After cloning, rename the file *cfg.php.example* to *cfg.php* and define the following variables: 
+You can clone **backstage2** doing `git clone https://github.com/wlox-project/backstage2.git`. After cloning, rename the file *cfg.php.example* to *cfg.php* and define the following variables: 
 
 - **$CFG->dbhost:** The address of the database server.
 - **$CFG->dbname:** The database name.

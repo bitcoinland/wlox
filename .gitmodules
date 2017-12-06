@@ -10,6 +10,3 @@
 [submodule "wlox-cron"]
 	path = wlox-cron
 	url = https://github.com/wlox-project/wlox-cron
-[submodule "wlox-frontend"]
-	path = wlox-frontend
-	url = https://github.com/wlox-project/wlox-frontend/

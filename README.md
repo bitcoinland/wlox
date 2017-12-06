@@ -4,7 +4,7 @@ WLOX is an open source cryptocurrency exchange that supports multiple cryptocurr
 
 **If you want to collaborate with the project please refer to:
 email: wloxproject@gmail.com
-slack: wlox.slack.com**
+slack: http://wlox.slack.com**
 
 The purpose of this document is to walk you throught the process of a typical setup.
 sasasda
@@ -44,7 +44,7 @@ You will find a file called *wlox.sql.gz* in the main project directory. Import 
 
 Setting up the Back-End (backstage2)
 -------------------
-As mentioned above, WLOX comes with its own administrative program, *backstage2*, which is really a [seperate project](https://github.com/mbassan/backstage2) developed over a few years.
+As mentioned above, WLOX comes with its own administrative program, *backstage2*, which is really a [seperate project](https://github.com/wlox-project/backstage2) developed over a few years.
 
 You can clone **backstage2** doing `git clone https://github.com/wlox-project/backstage2.git`. After cloning, rename the file *cfg.php.example* to *cfg.php* and define the following variables: 
 
@@ -125,7 +125,7 @@ Setting up the API Server
 ---------------------
 The API server provides a layer of security and abstraction between the frontend server and the database in order to prevent direct communication between these two components. 
 
-Install by doing `git clone https://github.com/mbassan/wlox-api.git` in the intended space.
+Install by doing `git clone https://github.com/wlox-project/wlox-api.git` in the intended space.
 
 When this is ready, rename cfg/cfg.php.example to cfg/cfg.php and set:
 
@@ -139,7 +139,7 @@ Setting up the Auth Server
 
 The purpose of the Auth server is to allow users to initiate sessions and obtain a session key so that they can access protected methods on the API. 
 
-Install by doing `git clone https://github.com/mbassan/wlox-auth.git` in the intended space.
+Install by doing `git clone https://github.com/wlox-project/wlox-auth.git` in the intended space.
 
 When this is ready, rename cfg.php.example to cfg.php and set:
 
@@ -156,7 +156,7 @@ Setting up Cron Jobs
 
 The Cron Jobs necessary for WLOX to run are provided in this repository. 
 
-Install by doing `git clone https://github.com/mbassan/wlox-auth.git` in the intended space.
+Install by doing `git clone https://github.com/wlox-project/wlox-auth.git` in the intended space.
 
 When this is ready, rename cfg.php.example to cfg.php and set:
 
@@ -198,7 +198,7 @@ Setting up the Frontend
 -------------------
 The frontend server is intended to be the only part of the app which should be accesible to the user. 
 
-Install by doing `git clone https://github.com/mbassan/wlox-frontend.git` in the intended space.
+Install by doing `git clone https://github.com/wlox-project/wlox-frontend.git` in the intended space.
 
 The /htdocs folder provided in the package is intended to be the server's web directory.
 

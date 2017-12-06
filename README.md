@@ -13,14 +13,14 @@ Getting Started
 --------------
 WLOX runs on the traditional PHP/MySQL/Apache setup.
 
-**For a development environment**, you can simply clone the whole set of WLOX repositories by doing `git clone --recursive https://github.com/wlox-project/wlox.git`.
+**For a development environment**, you can simply clone the whole set of WLOX repositories one by one by doing `git clone https://github.com/wlox-project/wlox-submodule`.
 
-**For a production environment**, it is strongly recommended to distribute the different repositories across multiple servers. You can clone each sub-module independently by doing `https://github.com/wlox-project/wlox-[submodule].git`.
+**For a production environment**, it is strongly recommended to distribute the different repositories across multiple servers. You can clone each sub-module independently by doing `https://github.com/wlox-project/wlox-[submodule].git` in each server.
 
 
 Project Structure
 --------------
-WLOX is structured as one main *git* repository with multiple sub-modules. As mentioned above, you can clone the whole project or each repository on it's own.
+WLOX is structured as one main project with multiple sub-modules. As mentioned above, you can clone each repository on it's own.
 
 - **wlox** > The master repo. DB updates and documentation reside here.
 - |-- **wlox-frontend** > The App's frontend.
@@ -86,7 +86,7 @@ Once you have managed to install and access **backstage2**, log in using admin/a
 - **SMTP Password:** For SMTP mail account.
 - **SMTP Sender Email:** Can be the same as *support email* above.
 
-**Bitcoin Server Settings**
+**Bitcoin Server Settings** (This will be updated, the last version doesn't have the address in here but in wallet configuration)
 - **Username:** The username for *bitcoind*.
 - **Account Name:** The account name for *bitcoind* (optional, but makes things neater - can be same as username).
 - **Passphrase:** Use something strong.
